@@ -1,0 +1,9 @@
+<h3>Tracks</h3>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Cool List of Tracks
+  </a>
+  <div ng-repeat="track in tracks track by $index">
+    <a href="#/track/{{track.track_oid}}" class="list-group-item">{{track.track_name}}</a>
+  </div>  
+</div>
